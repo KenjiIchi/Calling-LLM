@@ -5,7 +5,7 @@
 import os
 import pandas as pd
 from openai import OpenAI 
-from dotenv import load_dotenv
+from dotenv import load_dotenv 
 
 df = pd.read_csv("C:/Estudos_phython_AI/reviews.csv")
 
