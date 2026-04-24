@@ -4,7 +4,7 @@
 # 3. Adicionar uma nova coluna com a classificação ao DataFrame.
 import os
 import pandas as pd
-from openai import OpenAI
+from openai import OpenAI 
 from dotenv import load_dotenv
 
 df = pd.read_csv("C:/Estudos_phython_AI/reviews.csv")
