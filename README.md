@@ -1,4 +1,4 @@
-# LLM Sentiment Analysis
+# LLM review Analysis
 
 This project performs sentiment analysis on customer reviews using Python, pandas and a Large Language Model (LLM).
 
