@@ -30,5 +30,5 @@ def verificandoreviews(listareviews):
     return sentimento
 
 df["Sentiment"] = verificandoreviews(review_text)
-df.to_csv("review_+_sentiment_column.csv", index=False)
+df.to_csv("review_+_sentiment_column.csv", index=False, encode="utf-8")
 print(df.head())
